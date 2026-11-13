@@ -1,0 +1,29 @@
+# 编译输出
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# 本地配置（含数据库密码、Redis 密码、第三方密钥，绝不入库）
+application-dev.yaml
+application-dev.yml
+application-local.yaml
+application-local.yml
+*.local.yaml
+
+# 日志与临时文件
+*.log
+logs/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 上传的本地图片
+uploads/

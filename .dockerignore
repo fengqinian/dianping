@@ -1,0 +1,30 @@
+# 构建产物
+target
+**/target
+*.jar
+
+# 版本控制与文档
+.git
+.gitignore
+README.md
+
+# IDE
+.idea
+*.iml
+
+# 本地敏感配置（绝不打进镜像，容器里用环境变量传）
+**/application-dev.yaml
+**/application-dev.yml
+**/application-local.yaml
+
+# 日志与杂项
+*.log
+logs
+upload
+.DS_Store
+Thumbs.db
+
+# Docker 自身
+Dockerfile
+docker-compose.yml
+.dockerignore
