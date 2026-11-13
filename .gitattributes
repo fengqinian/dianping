@@ -1,0 +1,9 @@
+# 换行符统一：容器构建在 Linux 下进行，Dockerfile / compose 必须是 LF
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+docker-compose.yml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
